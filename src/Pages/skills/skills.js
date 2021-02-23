@@ -52,33 +52,19 @@ const Skills = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
+            </Col>
 
             {/* Hosting Platforms */}
-            <Card className="focus mt-2 mb-2 ">
-              <Card.Body>
-                <Card.Title className="text-center  card-title">Hosting Platforms</Card.Title>
-                <hr />
-                <Card.Text className="card-text d-flex justify-content-start flex-column">
-                  {skills.hostingPlatforms.map((skill, index) => (
-                    <span className="p-2" key={index}>
-                      <a className="text-dark text-decoration-none" href={skill.link} target="_blank" rel="noopener noreferrer">
-                        <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
-                      </a>
-                    </span>
-                  ))}
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
+           
 
           {/* Programming Languages */}
           <Col md={4}>
             <Card className="focus mt-2 mb-2">
               <Card.Body>
-                <Card.Title className="text-center  card-title">Programming Languages</Card.Title>
+                <Card.Title className="text-center  card-title">Mobile Programming </Card.Title>
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
-                  {skills.programmingLanguages.map((skill, index) => (
+                  {skills.mobileProgramming.map((skill, index) => (
                     <span className="p-2" key={index}>
                       <a className="text-dark text-decoration-none" href={skill.link} target="_blank" rel="noopener noreferrer">
                         <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
@@ -91,22 +77,7 @@ const Skills = () => {
 
             {/* Database */}
 
-            <Card className="focus mt-2 mb-2">
-              <Card.Body>
-                <Card.Title className="text-center  card-title">Database</Card.Title>
-                <hr />
-                <Card.Text className="card-text d-flex justify-content-start flex-column">
-                  {skills.databases.map((skill, index) => (
-                    <span className="p-2" key={index}>
-                      <a className="text-dark text-decoration-none" href={skill.link} target="_blank" rel="noopener noreferrer">
-                        <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
-                      </a>
-                    </span>
-                  ))}
-                </Card.Text>
-              </Card.Body>
-            </Card>
-            {/* Version Control */}
+            
 
             <Card className="focus mt-2 mb-2">
               <Card.Body>

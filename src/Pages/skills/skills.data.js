@@ -23,6 +23,7 @@ import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import L_TYPESCRIPT from "../../assets/img/skills/typescript.svg";
 import L_GOLANG from "../../assets/img/skills/go-6.svg";
 import L_PYTHON from "../../assets/img/skills/python.svg";
+import L_FIREBASE from "../../assets/img/skills/firebase.svg"
 
 export const skills = {
   frontend: [
@@ -80,18 +81,8 @@ export const skills = {
       imgSrc: L_MATERIALUI,
       skillName: "Material-UI",
     },
-    {
-      link: "https://react-bootstrap.github.io/",
-      imgAltText: "React Bootstrap",
-      imgSrc: L_REACT_BOOTSTRAP,
-      skillName: "React Bootstrap",
-    },
-    {
-      link: "https://styled-components.com/",
-      imgAltText: "styled-components",
-      imgSrc: L_STYLED_COMPONENTS,
-      skillName: "styled-components",
-    },
+    
+    
     
   ],
 
@@ -109,17 +100,25 @@ export const skills = {
       skillName: "Express",
     },
     {
-      link: "https://www.djangoproject.com/",
-      imgAltText: "Django",
-      imgSrc: L_DJANGO,
-      skillName: "Django",
+      link:"https://firebase.google.com/",
+      imgAltText: "Firebase",
+      imgSrc: L_FIREBASE,
+      skillName: "Firebase",
+
     },
     {
-      link: "https://flask.palletsprojects.com/",
-      imgAltText: "Flask",
-      imgSrc: L_FLASK,
-      skillName: "Flask",
+      link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
+      imgAltText: "MS-SQL",
+      imgSrc: L_MSSQL,
+      skillName: "MS-SQL",
     },
+    {
+      link: "https://www.mongodb.com/",
+      imgAltText: "MongoDB",
+      imgSrc: L_MONGODB,
+      skillName: "MongoDB",
+    },
+    
   ],
   hostingPlatforms: [
     {
@@ -141,39 +140,17 @@ export const skills = {
       skillName: "GitHub Pages",
     },
   ],
-  programmingLanguages: [
+ mobileProgramming: [
     {
-      link: "https://www.javascript.com/",
-      imgAltText: "JavaScript",
-      imgSrc: L_JAVASCRIPT,
-      skillName: "JavaScript",
+      link: "https://reactnative.dev/",
+      imgAltText: "React Native",
+      imgSrc: L_REACT,
+      skillName: "React Native",
     },
-    {
-      link: "https://www.typescriptlang.org/",
-      imgAltText: "TypeScript",
-      imgSrc: L_TYPESCRIPT,
-      skillName: "TypeScript",
-    },
-    {
-      link: "https://www.python.org/",
-      imgAltText: "Python",
-      imgSrc: L_PYTHON,
-      skillName: "Python",
-    },
-    {
-      link: "https://golang.org/",
-      imgAltText: "Golang",
-      imgSrc: L_GOLANG,
-      skillName: "Golang",
-    },
+    
   ],
   databases: [
-    {
-      link: "https://www.postgresql.org/",
-      imgAltText: "PostgreSQL",
-      imgSrc: L_POSTGRESQL,
-      skillName: "PostgreSQL",
-    },
+    
     {
       link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
       imgAltText: "MS-SQL",

@@ -9,17 +9,21 @@ const Experience = () => {
     return (
         <div id="experience">
             <h1 className="pt-3 text-center font-details-b pb-3">EXPERIENCE</h1>
-            <Jumbotron className="jumbo-style">
+            
                 <Container>
 
                     <Card>
 
                         <Card.Body className="d-flex justify-content-center flex-column">
+                            
+                                <Card.Text className="text-left style">
+                                <strong className="body-title-style ">  TechSmite India Pvt LTD</strong>
+                                    
+                                    
+                                   </Card.Text>
+                            
                             <div>
-                                <Card.Title className="text-center">TechSmite India Pvt LTD</Card.Title>
-                            </div>
-                            <div>
-                                <Card.Text className="text-center style">
+                                <Card.Text className="text-left style">
                                     <strong className="body-title-style ">Junior React React-Native Developer</strong>
                                     <br />
                                     <strong>Technology:</strong> React JS,React Native,Firebase,HTML,CSS,Javascript,Node JS
@@ -28,16 +32,13 @@ const Experience = () => {
                                      <br />
                                     <strong> Description </strong>
                                     <ul className="text-left">
-                                        <li><strong>Developed &amp; enhanced</strong> multiple features with customizability option across web application.</li>
-                                        <li><strong>Developed</strong> automation system to create SQL bulk query scripts that
-                                          increased efficiency by 80% and decreased working hours from 4 hours to 30 mins per task.
-                                        </li>
-                                        <li><strong>Provided</strong> application maintenance while working as `Production Support`.
-                                       </li>
-                                        <li><strong>Performed</strong> CRUD operations on multiple databases to load/ remove data according
-                                        to the business requirements.</li>
+                                    <li>
+                                        Working in startup environment on React and React-Native project Responsible for creating efficient design and developing User Interaction screens for Car Parking Mobile App using React Native. </li>
+                                        <li>Work on Both React Native Expo and React Native cli</li>
+                                      
                                         {/* <li><strong>Co-created</strong> React Document used as a guide for new developers.</li> */}
 
+                                        
                                     </ul>
 
 
@@ -46,21 +47,21 @@ const Experience = () => {
 
 
                             <div>
-                                <Card.Title className="text-center">TechSmite India Pvt LTD</Card.Title>
+                                <Card.Text className="text-left style">
+                                    
+                                <strong className="body-title-style ">Georgia Tech Professional Development – Full Stack Web Development  </strong> </Card.Text>
                             </div>
                             <div>
                                 <Card.Text className="text-center style">
-                                    <strong className="body-title-style ">Junior React React-Native Developer</strong>
+                                    <strong className="body-title-style ">Full Stack Web Developer</strong>
                                     <br />
-                                    <strong>Technology:</strong> React JS,React Native,Firebase,HTML,CSS,Javascript,Node JS
+                                    <strong>Technology:</strong> React JS,Firebase,HTML,CSS,Javascript,Node JS,Express,Node JS
                                     <br/>
-                                     <strong>Duration:</strong> August 2020 - Present
+                                     <strong>Duration:</strong> 2019
                                      <br />
                                     <strong> Description </strong>
                                     <ul className="text-left">
-                                        <li>
-                                        Working in startup environment on React and React-Native project Responsible for creating efficient design and developing User Interaction screens for Car Parking Mobile App using React Native. </li>
-                                        <li>Work on Both React Native Expo and React Native cli</li>
+                                       <li>6+ Month intensive program focused on gaining technical programming skills in HTML5, CSS3, JavaScript, jQuery, Bootstrap, React JS,Firebase, Node Js, MySQL, MongoDB, Express, Handelbars</li>
                                       
                                         {/* <li><strong>Co-created</strong> React Document used as a guide for new developers.</li> */}
 
@@ -76,7 +77,7 @@ const Experience = () => {
                     </Card>
 
                 </Container>
-            </Jumbotron>
+           
         </div>
     );
 };

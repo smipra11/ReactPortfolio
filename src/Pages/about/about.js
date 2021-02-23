@@ -23,10 +23,8 @@ const About = () => {
                         <Col xs={12} md={6}>
                             <Row className="align-items-start p-2 my-details rounded">
                                 Hi there! I am <strong>&nbsp;Smita Deshpande</strong>
-                                <br />A passionate programmer and a Coach, born and brought up in India. I am a Full Stack Web Developer with React.js, Redux, Express.js, Node.js, and PostgreSQL as my tech stack.
-                             <br />
-                              In 2019, I successfully completed my Engineering with specialization in 'Electronics and Telecommunication'.
                                 <br />
+                                Full Stack Web Developer with a background in Computer Science. Certificate in Full stack Web Development Program from Georgia Tech. Extensive experience in Web and Mobile app development Passionate about learning new technologies and building impactful products. 
 
                                 <Col className="d-flex justify-content-center flex-wrap">
                                     <div>
@@ -37,13 +35,7 @@ const About = () => {
                                         </a>
                                     </div>
 
-                                    <div>
-                                        <a href="https://drive.google.com/file/d/1Snbq3x4Itk_ZN4c8J96aNdp4SunXR08Y/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-                                            <Button className="m-2" variant="outline-success">
-                                                My Resume
-                                       </Button>
-                                        </a>
-                                    </div>
+                                    
 
                                     <div>
                                         <a href="https://github.com/smipra11" target="_blank" rel="noopener noreferrer">
