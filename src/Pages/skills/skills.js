@@ -11,8 +11,9 @@ import "./skill.css"
 const Skills = () => {
   return (
     <div>
+       <h3 className="pt-3 text-center  pb-3">TECH SKILLS</h3>
     <div className="skills">
-      <h1 className="pt-3 text-center font-details pb-3">TECH SKILLS</h1>
+     
       <CardDeck>
         <Row className="d-flex justify-content-around">
           {/* Frontend */}

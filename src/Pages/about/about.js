@@ -10,8 +10,9 @@ import "./about.css"
 const About = () => {
     return (
         <div id="about">
+              <h3 className="pt-3 text-center  pb-3 ">ABOUT ME</h3>
             <div className="about">
-                <h1 className="pt-3 text-center font-details pb-3">ABOUT ME</h1>
+              
                 <Container>
                     <Row>
                         <Col xs={12} md={6}>
