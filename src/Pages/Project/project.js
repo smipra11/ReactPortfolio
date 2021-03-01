@@ -7,6 +7,7 @@ import Button from "react-bootstrap/Button";
 import L_Stock from "../../assets/img/projects/Stock.png"
 //import L_Foodie from "../../assets/img/projects/food.png"
 import L_amazon from "../../assets/img/projects/amazon.png"
+import  L_book from "../../assets/img/projects/new3.png"
 import "./project.css"
 
 
@@ -18,7 +19,7 @@ const Project = () => {
 
 
         <Card style={{ width: '20rem' }}>
-          <Card.Img variant="top" src={L_Stock} />
+          <Card.Img variant="top" src={L_Stock} className="book" />
           <Card.Body>
             <Card.Text>
               Stockabily-Stock search Application
@@ -45,23 +46,23 @@ const Project = () => {
         </Card>
 
         <Card style={{ width: '20rem' }}>
-          <Card.Img variant="top" src={"https://user-images.githubusercontent.com/45401868/61585807-f645e100-ab32-11e9-8c3e-cd51977cfb5a.png"} />
+          <Card.Img variant="top" src={L_book} className="book"/>
           <Card.Body>
             <Card.Text>
-              FoodieReview-MERN Stack Application
+              React Native -BookLibrary App
       </Card.Text>
             <Card.Text>
 
-              <strong> Technology Stack</strong> - React,Node JS,Express,MongoDB,Material UI, React Router,React Bootstrap.
-      </Card.Text>
-
+              <strong> Technology Stack</strong> - React Native,Expo Cli,React Router,Material Icon,Firebase for Authetication,Firebase firestore ,Firebase Storage
+             </Card.Text>
+            
             <div >
-              <a href="https://github.com/smipra11/Find-my-Fev" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/smipra11/ReactNative-BookSearchApp" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline-info" title="View Code" className="button" size="sm">
                   SOURCE CODE
                 </Button>
               </a>
-              <a href=" https://find-my-fav.herokuapp.com/Restaurant " target="_blank" rel="noopener noreferrer">
+              <a href=" https://github.com/smipra11/ReactNative-BookSearchApp " target="_blank" rel="noopener noreferrer">
                 <Button variant="outline-info" title="View Code" className="button" size="sm">
                   SEE LIVE
                 </Button>
@@ -73,7 +74,7 @@ const Project = () => {
 
         </Card>
         <Card style={{ width: '20rem' }}>
-          <Card.Img variant="top" src={L_amazon} />
+          <Card.Img variant="top" src={L_amazon} className="book"/>
           <Card.Body>
             <Card.Text>
               React-Ecommerce App
@@ -105,24 +106,25 @@ const Project = () => {
 
 
         <Card style={{ width: '20rem' }}>
-          <Card.Img variant="top" src={L_amazon} />
+          <Card.Img variant="top" src={"https://user-images.githubusercontent.com/45401868/61585807-f645e100-ab32-11e9-8c3e-cd51977cfb5a.png"} className="book"/>
           <Card.Body>
             <Card.Text>
-              React-Ecommerce App
+              MERN Stack App
       </Card.Text>
             <Card.Text>
 
-              <strong> Technology Stack</strong> - React,Material UI,Contex App for State Mangment,Firebase Auth,Firebase Real Time database
+              <strong> Technology Stack</strong> -React React Router MongoDB React Bootrap Express Node JS
       </Card.Text>
 
 
             <div >
-              <a href="https://github.com/smipra11/crwn-ecommerce" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/smipra11/Find-my-Fev" target="_blank" rel="noopener noreferrer">
+              
                 <Button variant="outline-info" title="View Code" className="button" size="sm">
                   SOURCE CODE
                 </Button>
               </a>
-              <a href="https://shopify-ecommerce.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+              <a href="https://find-my-fav.herokuapp.com/Restaurant" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline-info" title="View Code" className="button" size="sm">
                   SEE LIVE
                 </Button>

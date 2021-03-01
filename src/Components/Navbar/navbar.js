@@ -1,18 +1,14 @@
 import React from 'react'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
-import Logo from "../../assets/icons/logow.webp"
+
 import "./navbar.css"
 
 function MYNavbar() {
   return (
     <div>
       <Navbar fixed="top" expand="md" variant="dark" className="animate-navbar nav-theme justify-content-between"    >
-        <div>
-          <Navbar.Brand href="#home">
-            <img className="logo" src={Logo} alt="" />
-          </Navbar.Brand>
-        </div>
+        
 
         <div>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
