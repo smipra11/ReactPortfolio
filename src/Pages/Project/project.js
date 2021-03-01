@@ -28,6 +28,19 @@ const Project = () => {
               <strong> Technology Stack</strong> - HTML,  JavaScript, Query Alpha Vantage API,  firebase, Trading View JavaScript Library.
              </Card.Text>
 
+            <div >
+              <a href="https://github.com/miklotov/Stockabily" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline-info" title="View Code" className="button" size="sm">
+                  SOURCE CODE
+                </Button>
+              </a>
+              <a href="https://miklotov.github.io/Stockabily/" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline-info" title="View Code" className="button" size="sm">
+                  SEE LIVE
+                </Button>
+              </a>
+            </div>
+
           </Card.Body>
         </Card>
 
@@ -42,7 +55,22 @@ const Project = () => {
               <strong> Technology Stack</strong> - React,Node JS,Express,MongoDB,Material UI, React Router,React Bootstrap.
       </Card.Text>
 
+            <div >
+              <a href="https://github.com/smipra11/Find-my-Fev" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline-info" title="View Code" className="button" size="sm">
+                  SOURCE CODE
+                </Button>
+              </a>
+              <a href=" https://find-my-fav.herokuapp.com/Restaurant " target="_blank" rel="noopener noreferrer">
+                <Button variant="outline-info" title="View Code" className="button" size="sm">
+                  SEE LIVE
+                </Button>
+              </a>
+            </div>
+
           </Card.Body>
+
+
         </Card>
         <Card style={{ width: '20rem' }}>
           <Card.Img variant="top" src={L_amazon} />
@@ -55,10 +83,57 @@ const Project = () => {
               <strong> Technology Stack</strong> - React,Material UI,Contex App for State Mangment,Firebase Auth,Firebase Real Time database
       </Card.Text>
 
+
+            <div >
+              <a href="https://github.com/smipra11/crwn-ecommerce" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline-info" title="View Code" className="button" className="button" size="sm">
+                  SOURCE CODE
+                </Button>
+              </a>
+              <a href="https://shopify-ecommerce.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline-info" title="View Code" className="button" className="button" size="sm">
+                  SEE LIVE
+                </Button>
+              </a>
+            </div>
+
+          </Card.Body>
+        </Card>
+        </div>
+        
+        <div className="project">
+
+
+        <Card style={{ width: '20rem' }}>
+          <Card.Img variant="top" src={L_amazon} />
+          <Card.Body>
+            <Card.Text>
+              React-Ecommerce App
+      </Card.Text>
+            <Card.Text>
+
+              <strong> Technology Stack</strong> - React,Material UI,Contex App for State Mangment,Firebase Auth,Firebase Real Time database
+      </Card.Text>
+
+
+            <div >
+              <a href="https://github.com/smipra11/crwn-ecommerce" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline-info" title="View Code" className="button" size="sm">
+                  SOURCE CODE
+                </Button>
+              </a>
+              <a href="https://shopify-ecommerce.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline-info" title="View Code" className="button" size="sm">
+                  SEE LIVE
+                </Button>
+              </a>
+            </div>
+
           </Card.Body>
         </Card>
 
-      </div>
+       </div>
+     
     </div>
   )
 }
