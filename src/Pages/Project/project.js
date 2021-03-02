@@ -7,7 +7,9 @@ import Button from "react-bootstrap/Button";
 import L_Stock from "../../assets/img/projects/Stock.png"
 //import L_Foodie from "../../assets/img/projects/food.png"
 import L_amazon from "../../assets/img/projects/amazon.png"
-import  L_book from "../../assets/img/projects/new3.png"
+import L_book from "../../assets/img/projects/new3.png"
+import L_cart from "../../assets/img/projects/cart.png"
+
 import "./project.css"
 
 
@@ -46,7 +48,7 @@ const Project = () => {
         </Card>
 
         <Card style={{ width: '20rem' }}>
-          <Card.Img variant="top" src={L_book} className="book"/>
+          <Card.Img variant="top" src={L_book} className="book" />
           <Card.Body>
             <Card.Text>
               React Native -BookLibrary App
@@ -55,7 +57,7 @@ const Project = () => {
 
               <strong> Technology Stack</strong> - React Native,Expo Cli,React Router,Material Icon,Firebase for Authetication,Firebase firestore ,Firebase Storage
              </Card.Text>
-            
+
             <div >
               <a href="https://github.com/smipra11/ReactNative-BookSearchApp" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline-info" title="View Code" className="button" size="sm">
@@ -74,7 +76,7 @@ const Project = () => {
 
         </Card>
         <Card style={{ width: '20rem' }}>
-          <Card.Img variant="top" src={L_amazon} className="book"/>
+          <Card.Img variant="top" src={L_amazon} className="book" />
           <Card.Body>
             <Card.Text>
               React-Ecommerce App
@@ -100,13 +102,13 @@ const Project = () => {
 
           </Card.Body>
         </Card>
-        </div>
-        
-        <div className="project">
+      </div>
+
+      <div className="project">
 
 
         <Card style={{ width: '20rem' }}>
-          <Card.Img variant="top" src={"https://user-images.githubusercontent.com/45401868/61585807-f645e100-ab32-11e9-8c3e-cd51977cfb5a.png"} className="book"/>
+          <Card.Img variant="top" src={"https://user-images.githubusercontent.com/45401868/61585807-f645e100-ab32-11e9-8c3e-cd51977cfb5a.png"} className="book" />
           <Card.Body>
             <Card.Text>
               MERN Stack App
@@ -119,7 +121,7 @@ const Project = () => {
 
             <div >
               <a href="https://github.com/smipra11/Find-my-Fev" target="_blank" rel="noopener noreferrer">
-              
+
                 <Button variant="outline-info" title="View Code" className="button" size="sm">
                   SOURCE CODE
                 </Button>
@@ -134,8 +136,43 @@ const Project = () => {
           </Card.Body>
         </Card>
 
-       </div>
-     
+
+
+
+
+
+        <Card style={{ width: '20rem' }}>
+          <Card.Img variant="top" src={L_cart} className="book" />
+          <Card.Body>
+            <Card.Text>
+             React Native E-Commerce App
+      </Card.Text>
+            <Card.Text>
+
+              <strong> Technology Stack</strong> -React Native,React Router,Redux for State Managment,Material Ui
+      </Card.Text>
+
+
+            <div >
+              <a href="https://github.com/smipra11/ReactNative-Shopify" target="_blank" rel="noopener noreferrer">
+
+                <Button variant="outline-info" title="View Code" className="button" size="sm">
+                  SOURCE CODE
+                </Button>
+              </a>
+              <a href="https://github.com/smipra11/ReactNative-Shopify" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline-info" title="View Code" className="button" size="sm">
+                  SEE LIVE
+                </Button>
+              </a>
+            </div>
+
+          </Card.Body>
+        </Card>
+
+
+      </div>
+
     </div>
   )
 }
