@@ -9,6 +9,7 @@ import L_Stock from "../../assets/img/projects/Stock.png"
 import L_amazon from "../../assets/img/projects/amazon.png"
 import L_book from "../../assets/img/projects/new3.png"
 import L_cart from "../../assets/img/projects/cart.png"
+import L_client from "../../assets/img/projects/Techsmite.png"
 
 import "./project.css"
 
@@ -145,7 +146,7 @@ const Project = () => {
           <Card.Img variant="top" src={L_cart} className="book" />
           <Card.Body>
             <Card.Text>
-             React Native E-Commerce App
+             React Native E-Commerce App 
       </Card.Text>
             <Card.Text>
 
@@ -169,6 +170,38 @@ const Project = () => {
 
           </Card.Body>
         </Card>
+
+
+        <Card style={{ width: '20rem' }}>
+          <Card.Img variant="top" src={L_client} className="book" />
+          <Card.Body>
+            <Card.Text>
+             TechSmite Landing Page
+      </Card.Text>
+            <Card.Text>
+
+              <strong> Technology Stack</strong> -HTML,CSS,Bootstrap,font-awsome,PHP
+      </Card.Text>
+
+
+            <div >
+              <a href="https://github.com/smipra11/TechSmite-Landingpage" target="_blank" rel="noopener noreferrer">
+
+                <Button variant="outline-info" title="View Code" className="button" size="sm">
+                  SOURCE CODE
+                </Button>
+              </a>
+              <a href="https://www.techsmite.com/" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline-info" title="View Code" className="button" size="sm">
+                  SEE LIVE
+                </Button>
+              </a>
+            </div>
+
+          </Card.Body>
+        </Card>
+
+
 
 
       </div>
