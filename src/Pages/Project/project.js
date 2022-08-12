@@ -10,6 +10,8 @@ import L_amazon from "../../assets/img/projects/amazon.png";
 import L_book from "../../assets/img/projects/new3.png";
 import L_cart from "../../assets/img/projects/cart.png";
 import L_client from "../../assets/img/projects/Techsmite.png";
+import L_github  from "../../assets/img/projects/githubfinder.png"
+import L_MemoriesMernStack  from "../../assets/img/projects/MemoriesMernStack.png"
 
 import "./project.css";
 
@@ -85,20 +87,7 @@ const Project = () => {
                   SOURCE CODE
                 </Button>
               </a>
-              <a
-                href=" https://github.com/smipra11/ReactNative-BookSearchApp "
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button
-                  variant="outline-info"
-                  title="View Code"
-                  className="button"
-                  size="sm"
-                >
-                  SEE LIVE
-                </Button>
-              </a>
+              
             </div>
           </Card.Body>
         </Card>
@@ -174,36 +163,23 @@ const Project = () => {
                   SOURCE CODE
                 </Button>
               </a>
-              <a
-                href="https://github.com/smipra11/ReactNative-Shopify"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button
-                  variant="outline-info"
-                  title="View Code"
-                  className="button"
-                  size="sm"
-                >
-                  SEE LIVE
-                </Button>
-              </a>
+              
             </div>
           </Card.Body>
         </Card>
 
         <Card style={{ width: "20rem" }}>
-          <Card.Img variant="top" src={L_client} className="book" />
+          <Card.Img variant="top" src={L_github} className="book" />
           <Card.Body>
-            <Card.Text>TechSmite Landing Page</Card.Text>
+            <Card.Text>Github Finder App</Card.Text>
             <Card.Text>
               <strong> Technology Stack</strong>{" "}
-              -HTML,CSS,Bootstrap,font-awsome,PHP
+              -Github Finder API,React,Tailwind CSS,Contex API
             </Card.Text>
 
             <div>
               <a
-                href="https://github.com/smipra11/TechSmite-Landingpage"
+                href="https://github.com/smipra11/Github_Finder"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -217,7 +193,7 @@ const Project = () => {
                 </Button>
               </a>
               <a
-                href="https://www.techsmite.com/"
+                href="https://github-finder-smipra11.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -233,6 +209,48 @@ const Project = () => {
             </div>
           </Card.Body>
         </Card>
+        <Card style={{ width: "20rem" }}>
+          <Card.Img variant="top" src={L_MemoriesMernStack} className="book" />
+          <Card.Body>
+            <Card.Text>Memories MERN Stack App</Card.Text>
+            <Card.Text>
+              <strong> Technology Stack</strong>{" "}
+              -MongoDB,React,Express,Node,React-Redux,Material UI
+            </Card.Text>
+
+            <div>
+              <a
+                href="https://github.com/smipra11/Memories-Project/tree/master"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button
+                  variant="outline-info"
+                  title="View Code"
+                  className="button"
+                  size="sm"
+                >
+                  SOURCE CODE
+                </Button>
+              </a>
+              <a
+                href="https://mymemories-fullstack.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button
+                  variant="outline-info"
+                  title="View Code"
+                  className="button"
+                  size="sm"
+                >
+                  SEE LIVE
+                </Button>
+              </a>
+            </div>
+          </Card.Body>
+        </Card>
+        
       </div>
     </div>
   );
