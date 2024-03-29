@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.1cfb8965.css",
+    "main.css": "/ReactPortfolio/static/css/main.da92854d.css",
     "main.js": "/ReactPortfolio/static/js/main.e2c31756.js",
     "static/media/epic2.png": "/ReactPortfolio/static/media/epic2.6728c98f4d681781c7c4.png",
     "static/media/epic4.png": "/ReactPortfolio/static/media/epic4.768cb9bdf56e209a33cd.png",
@@ -23,11 +23,11 @@
     "static/media/Kerbletlogo.png": "/ReactPortfolio/static/media/Kerbletlogo.84bc014c529bd855ad18.png",
     "static/media/epiclogo.png": "/ReactPortfolio/static/media/epiclogo.1d2b498848ef09327425.png",
     "index.html": "/ReactPortfolio/index.html",
-    "main.1cfb8965.css.map": "/ReactPortfolio/static/css/main.1cfb8965.css.map",
+    "main.da92854d.css.map": "/ReactPortfolio/static/css/main.da92854d.css.map",
     "main.e2c31756.js.map": "/ReactPortfolio/static/js/main.e2c31756.js.map"
   },
   "entrypoints": [
-    "static/css/main.1cfb8965.css",
+    "static/css/main.da92854d.css",
     "static/js/main.e2c31756.js"
   ]
 }
