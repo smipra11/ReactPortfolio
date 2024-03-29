@@ -65,8 +65,13 @@ const About = () => {
                     <Linkedin size={30}  style={{marginRight:'1.7rem',marginLeft:'1.6rem'}}/>
                    
                   </a>
-
+                  <a
+                    href="https://twitter.com/i/flow/login?redirect_after_login=%2Fmernstackdiva"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                   <Twitter size={30}  style={{marginRight:'1.7rem',marginLeft:'1.6rem'}}/>
+                  </a>
                 </Card.Text>
               </Card.Body>
              
