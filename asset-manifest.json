@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ReactPortfolio/static/css/main.da92854d.css",
-    "main.js": "/ReactPortfolio/static/js/main.e2c31756.js",
+    "main.js": "/ReactPortfolio/static/js/main.392d4ef5.js",
     "static/media/epic2.png": "/ReactPortfolio/static/media/epic2.6728c98f4d681781c7c4.png",
     "static/media/epic4.png": "/ReactPortfolio/static/media/epic4.768cb9bdf56e209a33cd.png",
     "static/media/banner2.png": "/ReactPortfolio/static/media/banner2.00299c0ccc8d8d200c18.png",
@@ -24,10 +24,10 @@
     "static/media/epiclogo.png": "/ReactPortfolio/static/media/epiclogo.1d2b498848ef09327425.png",
     "index.html": "/ReactPortfolio/index.html",
     "main.da92854d.css.map": "/ReactPortfolio/static/css/main.da92854d.css.map",
-    "main.e2c31756.js.map": "/ReactPortfolio/static/js/main.e2c31756.js.map"
+    "main.392d4ef5.js.map": "/ReactPortfolio/static/js/main.392d4ef5.js.map"
   },
   "entrypoints": [
     "static/css/main.da92854d.css",
-    "static/js/main.e2c31756.js"
+    "static/js/main.392d4ef5.js"
   ]
 }
